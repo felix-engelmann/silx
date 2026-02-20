@@ -81,6 +81,8 @@ test = [
     'pytest-xvfb',               # For GUI testing
     'pytest-cov',                # For coverage
     'pytest-mock',
+    'h5pyd',
+    'pytest-httpserver',         # For mocking HSDS
 ]
 dev = [
     'silx[full,doc,test]',
