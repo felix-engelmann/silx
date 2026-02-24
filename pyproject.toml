@@ -78,13 +78,12 @@ doc =[
     'pandoc',                    # For documentation Qt snapshot updates
 ]
 test = [
-    'silx[full]',
+    'silx[full,h5pyd]',
     'bitshuffle',
     'pytest',                    # For testing
     'pytest-xvfb',               # For GUI testing
     'pytest-cov',                # For coverage
     'pytest-mock',
-    'h5pyd',
     'pytest-httpserver',         # For mocking HSDS
 ]
 dev = [
