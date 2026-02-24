@@ -64,6 +64,9 @@ full = [
     'PySide6 >= 6.4',        # PyQt6, PyQt5  # For silx.gui
     'hdf5plugin',            # For HDF5 compression filters handling
 ]
+h5pyd = [
+    'h5pyd >= 0.20.0'
+]
 doc =[
     'silx[full]',
     'Sphinx',                    # To build the documentation in doc/
